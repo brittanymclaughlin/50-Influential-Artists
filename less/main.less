@@ -1,0 +1,68 @@
+#container {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    @media @mobile{
+        width:95vw;
+    }
+   
+    .title-container{
+        width:100%;
+        position:relative;
+        text-align:center;
+        
+       img{
+           height:auto;
+           width:100%;
+           opacity: 0.7;
+           padding-bottom:2%;
+       }
+        h1{
+            font-size:4rem;
+            color:white;
+            font-family: 'Raleway', verdana;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        a{
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            margin-top:7%;
+            transform: translate(-50%, -50%);  
+            .Buttonit(white,darkslategray);
+        }
+    }
+    .artists-container{
+        .Flexit(space-between);
+
+
+        .artist{
+            .Flexit(flex-start);
+            flex-direction: column;
+            text-align:center;
+            width:46%;
+            margin:3%;
+            font-family:'raleway',verdana;
+            
+            img{
+                width:70%;
+                height:auto;
+                border-radius: 5px;
+                margin: 0 auto;
+            }
+            a{
+                text-transform: none;
+                text-decoration: none;
+                color:black;
+                font-size:1.5rem;
+                padding:3%;
+            }
+            .bio{
+                font-size:1rem;
+            }
+        }
+    }
+  }

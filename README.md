@@ -23,13 +23,52 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this week's concepts by answering the following free-form questions.
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-1. How would you describe preprocessing to someone new to CSS?
-2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
-3. How would you explain the concept of a variable to someone new to programming?
-4. What is the purpose of using functions in code?
-5. What is a JSON data?
+How would you describe preprocessing to someone new to CSS?
 
+
+Preprocessing CSS is a way of logically putting together CSS whereas simply writing CSS outright can be very messy and confusing. Preprocessing is a way of writing CSS in a way similar to writing a list of to-do projects with sub lists of require materials or extra steps for that specific to-do item.
+
+
+
+What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+
+
+My favorite concept in preprocessing is that it nests everything just like HTML does so you know where you’re at within a document and not having to switch gears to prepare the CSS. There really isn’t a concept of preprocessors that gives me any trouble, in fact I wish I would have known about proprocessors sooner.
+
+
+
+
+How would you explain the concept of a variable to someone new to programming?
+
+
+
+A variable is a piece of data that stores information. For example, your debit card holds the information needed for your bank account information without having to access the bank account information publicly, it can be done with the card instead.
+
+
+
+
+
+What is the purpose of using functions in code?
+
+
+
+The purpose of a function is a certain process or steps of code inside to do a certain job/operation that you can call multiple times during a project instead of having to write the code numerous times which allows for you to keep your code DRY.
+
+
+
+
+
+What is a JSON data?
+
+
+
+
+JSON data is an object inside of JavaScript that allows for meaning to humans in the terms of formatting/structuring data and is easy for machines to run.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Instructions
@@ -47,10 +86,6 @@ Follow these steps to set up your project:
 
 #### Preprocessor Set up
 
-* [ ] Verify that you have LESS installed correctly by running `lessc -v` in your terminal, if you don't get a version message back, reach out to your project manager for help.
-* [ ] In your project's root folder, run the following command `less-watch-compiler less css index.less`
-* [ ] Verify your compiler is working correctly by changing the `background-color` on the `body` selector to `red` in your `index.less` file.
-* [ ] Once you see the red screen, you can delete that style and you're ready to start on the next task
 
 ### Task 2a:  Minimum Viable Product - PreProcessing
 
@@ -72,15 +107,15 @@ _You will know everything is working properly when you see the styles enabled fo
 
 #### Home Page - Desktop HTML & LESS
 
-* [ ] Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
-* [ ] Add a viewport meta tag to the head of your index.html page
-* [ ] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
-* [ ] Navigation Styles: Use the `navigation.less` file for styling.
-* [ ] Main Content Styles: Use the `main.less` file for styling
-* [ ] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
-* [ ] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
-* [ ] Use at least 2 parameters to create your button
-* [ ] Create a hover state that changes the opacity of images to 80%
+* [1 Take 10 minutes to review the code that has already been provided for you. Take time to see how the home page was built.
+* [1] Add a viewport meta tag to the head of your index.html page
+* [1] [Review the provided home desktop design file](design/Desktop.png). You are to build the missing navigation system and header image. You have been provided all content necessary in the [index.html file](index.html)
+* [1] Navigation Styles: Use the `navigation.less` file for styling.
+* [1] Main Content Styles: Use the `main.less` file for styling
+* [1] LESS Mixins: Create and use 2 different mixins to aid your styling. Use the `mixins.less` file for your mixins
+* [ 1] LESS Parametric Mixin: create a parametric mixin that is used to create the `contact us` button styles.
+* [1 ] Use at least 2 parameters to create your button
+* [ 1] Create a hover state that changes the opacity of images to 80%
 * [ ] Use good coding practices including adding responsive breakpoints to your code with media queries
 
 ### Task 2b: Minimum Viable Product - JavaScript
